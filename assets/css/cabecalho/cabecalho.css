@@ -1,0 +1,19 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+@media screen and (max-width: 900px) {
+    .cabecalho {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cabecalho {
+        flex-direction: column;
+    }
+}

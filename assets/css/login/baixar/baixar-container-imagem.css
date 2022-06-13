@@ -1,0 +1,22 @@
+.baixar__container--imagem {
+    width: 10rem;
+    height: 3rem;
+}
+
+.baixar__container--imagem:nth-child(1) {
+    background: url('../../../img/botao-apple.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.baixar__container--imagem:nth-child(2) {
+    background: url('../../../img/botao-googleplay.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 780px) {
+    .baixar__container--imagem {
+        margin-bottom: 1rem;
+    }
+}

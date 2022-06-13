@@ -1,0 +1,21 @@
+.menu {
+    min-width: 30%;
+}
+
+@media screen and (max-width: 900px) {
+    .menu {
+        min-width: 40%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .menu {
+        min-width: 60%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .menu {
+        min-width: 100%;
+    }
+}

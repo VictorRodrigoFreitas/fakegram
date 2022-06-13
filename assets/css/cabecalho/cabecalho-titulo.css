@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.cabecalho__titulo {
+    font-size: 2rem;
+    font-family: 'Pacifico', cursiva;
+}
+
+@media screen and (max-width: 700px) {
+    .cabecalho__titulo {
+        margin-bottom: 2rem;
+    }
+}
+

@@ -1,0 +1,12 @@
+.perfil__imagem {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+.perfil__imagem:hover {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}

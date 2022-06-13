@@ -1,0 +1,8 @@
+.link__conteudo {
+    font-weight: bold;
+    color: black;
+}
+
+.link__conteudo:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+body {
+    background-color: #DECAE9;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}

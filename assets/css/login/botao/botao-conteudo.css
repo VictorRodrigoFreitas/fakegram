@@ -1,0 +1,12 @@
+.botao__conteudo {
+    background-color: #CAD0ED;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #00000080;
+    padding: .5rem;
+    transition: all 1s;
+}
+
+.botao__conteudo:hover {
+    background-color: #C6E8F7;
+}

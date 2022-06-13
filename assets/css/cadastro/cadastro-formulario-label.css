@@ -1,0 +1,6 @@
+.cadastro__formulario--label input {
+    display: block;
+    min-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}

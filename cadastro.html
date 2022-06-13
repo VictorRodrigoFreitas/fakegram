@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon-instagram.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-titulo.css">
+    <link rel="stylesheet" href="assets/css/menu/menu.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-lista.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-item.css">
+    <link rel="stylesheet" href="assets/css/cadastro/cadastro.css">
+    <link rel="stylesheet" href="assets/css/cadastro/cadastro-formulario.css">
+    <link rel="stylesheet" href="assets/css/cadastro/cadastro-formulario-label.css">
+    <link rel="stylesheet" href="assets/css/rodape/rodape.css">
+    <link rel="stylesheet" href="assets/css/rodape/rodape-container.css">
+    <link rel="stylesheet" href="assets/css/rodape/rodape-container-desenvolvedor.css">
+    <link rel="stylesheet" href="assets/css/rodape/rodape-container-link.css">
+    <title> Fakegram Cadastro</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">Fakegram</h1>
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__lista--item"><a href="index.html">Home</a></li>
+                <li class="menu__lista--item"><a href="login.html">Login</a></li>
+                <li class="menu__lista--item"><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="cadastro">
+        <form class="cadastro__formulario">
+            <label class="cadastro__formulario--label"> Nome
+                <input type="text " placeholder="João" required>
+            </label>
+
+            <label class="cadastro__formulario--label"> Sobrenome
+                <input type="text " placeholder="da Silva" required>
+            </label>
+
+            <label class="cadastro__formulario--label"> CPF
+                <input type="text" placeholder="999.999.999-99" required>
+            </label>
+
+            <label class="cadastro__formulario--label"> E-mail
+                <input type="email" placeholder="joaodasilva@gmail.com" required>
+            </label>
+
+            <label class="cadastro__formulario--label"> Telefone
+                <input type="tel" placeholder="99 9 9999-9999 required" required>
+            </label>
+
+            <label class="cadastro__formulario--label"> Senha
+                <input type="password" placeholder="Insira sua senha" required>
+            </label>
+
+            <input type="submit">
+        </form>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__container">
+            <div class="rodape__container--desenvolvedor">
+                Victor Rodrigo Freitas
+            </div>
+            <a  class="rodape__container--link" href="https://www.linkedin.com/in/victor-rodrigo-freitas-067182227/" target="_blank" rel="external">
+                Linkedin
+            </a>
+            <a class="rodape__container--link" href="https://github.com/RodriWho" target="_blank" rel="external">
+                GitHub
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
